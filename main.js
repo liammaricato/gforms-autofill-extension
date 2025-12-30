@@ -45,6 +45,7 @@ function injectBubbleEl() {
 
 function triggerAutofill() {
     console.log('Triggering autofill...')
+	const startTimeMs = performance.now()
 
     try {
         if (!username || !checks) {
@@ -83,9 +84,11 @@ function triggerAutofill() {
             console.log(`Only ${checked.length} of ${checks.length} checks were filled!`)
         }
 
+        // Submit the form
         document.querySelector('form div[role=button][aria-label="Submit"] span').click()
 
-        console.log('Autofill triggered successfully!')
+		const elapsedMs = Math.round(performance.now() - startTimeMs)
+		console.log(`Autofill triggered successfully in ${elapsedMs} ms!`)
     } catch (error) {
         console.error('Error triggering autofill:', error)
         alert('Triggering autofill was not successful:', error)
