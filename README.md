@@ -1,12 +1,13 @@
 # Google Forms Autofill Extension
 
+Essa extensão tem o simples propósito de preencher um formulário com um formato bem específico, então dificilmente servirá para seus propósitos, mas atendeu muito bem minhas necessidades **cof cof*
+
 ![](images/icon.jpg)
 
-> Essa extensão tem o simples propósito de preencher um formulário com um formato bem específico, então dificilmente servirá para seus propósitos, mas atendeu muito bem minhas necessidades *cof cof*
+A extensão não está publicada na loja de extensões de nenhum navegador, portando deverá ser carregada por você mesmo. Cada navegador é diferente, neste tutorial ensinarei apenas como fazer para o Google Chrome.
 
-A extensão não está publica, e deverá ser carregada no seu navegador por você mesmo. Cada navegador é diferente, neste tutorial vou ensinar apenas para o Chrome.
-
-#### ⚠️ Atenção! Não me responsabilizo pelo mau uso desta extensão, qualquer problema que possa ocorrer está por sua própria conta e risco.
+> [!WARNING]  
+> Não me responsabilizo pelo mau uso desta extensão, qualquer problema que possa ocorrer está por sua própria conta e risco
 
 ## Carregando extensões no Google Chrome
 
@@ -33,3 +34,7 @@ Para começar a utilizar a extensão, é preciso preencher duas informações qu
 2. Assim que preenchidas as informações de usuário (@) e itens a serem selecionados, e apenas numa guia onde esteja aberta uma página do Google Forms, deverá aparecer no canto inferior direito um botão verde com um raio, esse botão é o gatilho do nosso autopreenchimento. Quando abrir seu formulário, caso os dados estejam preenchidos corretamente, o botão poderá ser pressionado e ele imediatamente fará o **preenchimento** dos dois campos e também o **envio** do formulário, portanto muita atenção ao pressioná-lo!
 
 E é só! Espero que tenham conseguido utilizar a extensão com sucesso e boas claims pra vocês, meninas 😆
+
+## Demo
+
+![](images/demo.gif)
